@@ -33,10 +33,6 @@
     font-size: 1.5rem;
   }
 
-  .event-cards {
-    gap: 16px;
-  }
-
   .event-card {
     padding: 24px 16px;
   }
@@ -58,11 +54,6 @@
 
   .hero-names {
     font-size: 2.8rem;
-  }
-
-  .event-cards {
-    grid-template-columns: 1fr;
-    max-width: 400px;
   }
 
   .countdown-timer {
