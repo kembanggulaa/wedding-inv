@@ -1,0 +1,160 @@
+/* ============================================
+   RESPONSIVE STYLES
+   ============================================ */
+
+/* Mobile Small (320px - 375px) */
+@media (max-width: 375px) {
+  .overlay-names {
+    font-size: 2.2rem;
+  }
+
+  .hero-names {
+    font-size: 2.5rem;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .countdown-number {
+    font-size: 1.8rem;
+  }
+
+  .countdown-box {
+    min-width: 60px;
+    padding: 14px 10px;
+  }
+
+  .guest-card {
+    padding: 18px 32px;
+  }
+
+  .guest-name-display {
+    font-size: 1.5rem;
+  }
+
+  .event-cards {
+    gap: 16px;
+  }
+
+  .event-card {
+    padding: 24px 16px;
+  }
+
+  .gallery-grid {
+    gap: 16px;
+  }
+}
+
+/* Mobile (376px - 767px) */
+@media (max-width: 767px) {
+  :root {
+    --section-padding: 60px 16px;
+  }
+
+  .overlay-names {
+    font-size: 2.5rem;
+  }
+
+  .hero-names {
+    font-size: 2.8rem;
+  }
+
+  .event-cards {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+  }
+
+  .countdown-timer {
+    gap: 12px;
+  }
+
+  .countdown-box {
+    min-width: 70px;
+    padding: 16px 12px;
+  }
+
+  .countdown-number {
+    font-size: 2rem;
+  }
+
+  .map-container iframe {
+    height: 300px;
+  }
+
+  .gallery-grid {
+    max-width: 100%;
+  }
+}
+
+/* Tablet (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .overlay-names {
+    font-size: 3.5rem;
+  }
+
+  .hero-names {
+    font-size: 4rem;
+  }
+
+  .container {
+    padding: 0 40px;
+  }
+}
+
+/* Desktop (1024px+) */
+@media (min-width: 1024px) {
+  .overlay-names {
+    font-size: 4rem;
+  }
+
+  .hero-names {
+    font-size: 4.5rem;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-quote {
+    font-size: 1.4rem;
+  }
+
+  .gallery-grid {
+    max-width: 700px;
+  }
+
+  .map-container iframe {
+    height: 450px;
+  }
+}
+
+/* Large Desktop (1440px+) */
+@media (min-width: 1440px) {
+  :root {
+    --container-max-width: 1000px;
+  }
+
+  .overlay-names {
+    font-size: 5rem;
+  }
+
+  .hero-names {
+    font-size: 5.5rem;
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+}
