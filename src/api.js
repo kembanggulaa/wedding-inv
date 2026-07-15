@@ -2,8 +2,12 @@
 // Google Apps Script API Configuration
 // ============================================
 
-// TODO: Replace with your actual Google Apps Script Web App URL
-const API_BASE_URL = 'https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec';
+// VITE_SCRIPT_ID is the Google Apps Script deployment ID
+// Set via environment variable in Vercel Dashboard
+const SCRIPT_ID = import.meta.env.VITE_SCRIPT_ID;
+const API_BASE_URL = SCRIPT_ID
+  ? `https://script.google.com/macros/s/${SCRIPT_ID}/exec`
+  : 'https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec';
 
 /**
  * Fetch guest data by slug
