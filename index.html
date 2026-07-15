@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Undangan Pernikahan - Asep & Dina</title>
-  <meta name="description" content="Undangan pernikahan Asep & Dina">
+  <title>Undangan Pernikahan - Vivit & Iwan</title>
+  <meta name="description" content="Undangan pernikahan Vivit & Iwan">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
 
   <!-- Styles -->
   <link rel="stylesheet" href="./styles/main.css">
@@ -20,14 +20,13 @@
   <!-- Opening Overlay -->
   <div id="opening-overlay" class="opening-overlay">
     <div class="overlay-background">
-      <img src="./images/background.jpg" alt="Couple" class="overlay-image">
+      <img src="./images/background-2.png" alt="Couple" class="overlay-image">
       <div class="overlay-darken"></div>
     </div>
     <div class="overlay-content">
-      <p class="overlay-label">The Wedding of</p>
-      <h1 class="overlay-names">Asep & Dina</h1>
+      <p class="overlay-label">the wedding of</p>
+      <h1 class="overlay-names">Vivit & Iwan</h1>
       <button id="open-invitation-btn" class="btn btn-primary btn-large">
-        <span class="btn-icon">🎵</span>
         <span class="btn-text">Buka Undangan</span>
       </button>
       <div class="overlay-guest">
@@ -39,13 +38,13 @@
 
   <!-- Main Content -->
   <main id="main-content" class="main-content hidden">
+    <div class="main-content-background"></div>
 
     <!-- Hero Section -->
     <section id="hero" class="section section-hero">
       <div class="hero-content">
-        <p class="hero-label">The Wedding of</p>
-        <h2 class="hero-names">Asep & Dina</h2>
-        <p class="hero-quote">"Dua jiwa, satu cinta, selamanya"</p>
+        <p class="hero-label">the wedding of</p>
+        <h2 class="hero-names">Vivit & Iwan</h2>
       </div>
     </section>
 
@@ -66,13 +65,22 @@
     <!-- Gallery Section -->
     <section id="gallery" class="section section-gallery">
       <div class="container">
-        <h2 class="section-title">Galeri Foto</h2>
+        <h2 class="section-title">Sabtu, 30 Januari 2027</h2>
+        <p class="gallery-quote">Dan segala sesuatu Kami ciptakan berpasang-pasangan agar kamu mengingat kebesaran Allah.<br>QS. Az-Zariyat: 49</p>
         <div class="gallery-grid">
           <div class="gallery-item">
-            <img src="./images/couple-1.jpg" alt="Couple Photo 1" class="gallery-image">
+            <img src="./images/Hery%20Iswanto.png" alt="Hery Iswanto" class="gallery-image">
+            <div class="gallery-caption">
+              <p class="gallery-caption-label">Putra dari</p>
+              <p class="gallery-caption-text">(Alm) Bapak Sartono dan Ibu Rusmini</p>
+            </div>
           </div>
           <div class="gallery-item">
-            <img src="./images/couple-2.jpg" alt="Couple Photo 2" class="gallery-image">
+            <img src="./images/Kurniavita%20Sasongko.png" alt="Kurniavita Sasongko" class="gallery-image">
+            <div class="gallery-caption">
+              <p class="gallery-caption-label">Putri dari</p>
+              <p class="gallery-caption-text">Bapak Yuni Sasongko dan Ibu Mahirta</p>
+            </div>
           </div>
         </div>
       </div>
@@ -85,23 +93,24 @@
         <div class="event-cards">
           <div class="event-card">
             <div class="event-header">
-              <span class="info-icon">📅</span>
-              <span class="event-date">Senin, 30 Juni 2026</span>
+              <span class="event-date">Sabtu, 30 Januari 2027</span>
             </div>
             <div class="event-divider"></div>
             <div class="event-info">
               <div class="info-item">
-                <span class="info-icon">📍</span>
-                <span class="info-text">Masjid Al-Hikmah</span>
+                <p class="info-text">Balai Shinta</p>
+                <p class="info-text">Mandala Bhakti Wanitatama</p>
+                <p class="info-text">Jl. Laksda Adisucipto No.88</p>
+                <p class="info-text">Yogyakarta</p>
               </div>
               <div class="event-schedule">
                 <div class="schedule-item">
-                  <span class="schedule-label">🕌 Akad Nikah</span>
-                  <span class="schedule-time">08:00 WIB</span>
+                  <span class="schedule-label">Akad Nikah</span>
+                  <span class="schedule-time">09.00 - 10.00 WIB</span>
                 </div>
                 <div class="schedule-item">
-                  <span class="schedule-label">🎉 Resepsi</span>
-                  <span class="schedule-time">11:00 - 14:00 WIB</span>
+                  <span class="schedule-label">Resepsi</span>
+                  <span class="schedule-time">11.30 - 13.30 WIB</span>
                 </div>
               </div>
             </div>
@@ -132,7 +141,7 @@
             <span class="countdown-label">Detik</span>
           </div>
         </div>
-        <p class="countdown-date">Senin, 30 Juni 2026</p>
+        <p class="countdown-date">Sabtu, 30 Januari 2027</p>
       </div>
     </section>
 
@@ -141,18 +150,9 @@
       <div class="container">
         <h2 class="section-title">Lokasi Acara</h2>
         <div class="map-container">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0!2d106.8!3d-6.2!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMTInMDAuMCJTIDEwNsKwNDgnMDAuMCJF!5e0!3m2!1sen!2sid!4v1600000000000!5m2!1sen!2sid"
-            width="100%"
-            height="400"
-            style="border:0;"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            title="Lokasi Acara"
-          ></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.0603897317305!2d110.39366129999999!3d-7.783422199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59c4d92db3e1%3A0x80074373f15d49de!2sBalai%20Shinta%20Mandala%20Bhakti%20Wanitatama!5e0!3m2!1sen!2sid!4v1782663604974!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
         </div>
-        <a href="https://maps.google.com/?q=-6.2,106.8" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+        <a href="https://maps.app.goo.gl/yfNo3QGhx1CSdbec9" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
           <span class="btn-icon">📍</span>
           Buka di Google Maps
         </a>
@@ -163,7 +163,8 @@
     <section id="rsvp" class="section section-rsvp">
       <div class="container">
         <h2 class="section-title">Konfirmasi Kehadiran</h2>
-        <form id="rsvp-form" class="rsvp-form">
+        <div class="card-container">
+          <form id="rsvp-form" class="rsvp-form">
           <div class="form-group">
             <label for="rsvp-name" class="form-label">Nama</label>
             <input type="text" id="rsvp-name" name="name" class="form-input" readonly>
@@ -189,6 +190,7 @@
             Kirim Konfirmasi
           </button>
         </form>
+        </div>
         <div id="rsvp-success" class="rsvp-success hidden">
           <span class="success-icon">✅</span>
           <p class="success-text">Terima kasih! RSVP Anda sudah tersimpan.</p>
@@ -199,24 +201,26 @@
     <!-- Ucapan Section -->
     <section id="ucapan" class="section section-ucapan">
       <div class="container">
-        <h2 class="section-title">Ucapan & Doa</h2>
-        <form id="ucapan-form" class="ucapan-form">
-          <div class="form-group">
-            <label for="ucapan-name" class="form-label">Nama</label>
-            <input type="text" id="ucapan-name" name="nama" class="form-input" readonly>
+        <div class="card-container">
+          <h2 class="section-title">Ucapan & Doa</h2>
+          <form id="ucapan-form" class="ucapan-form">
+            <div class="form-group">
+              <label for="ucapan-name" class="form-label">Nama</label>
+              <input type="text" id="ucapan-name" name="nama" class="form-input" readonly>
+            </div>
+            <div class="form-group">
+              <label for="ucapan-pesan" class="form-label">Ucapan/Doa</label>
+              <textarea id="ucapan-pesan" name="pesan" class="form-textarea" rows="4" placeholder="Tulis ucapan dan doa Anda di sini..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-submit">
+              Kirim Ucapan
+            </button>
+          </form>
+          <div class="ucapan-divider"></div>
+          <h3 class="ucapan-list-title">Ucapan & Doa</h3>
+          <div id="ucapan-list" class="ucapan-list">
+            <!-- Ucapan items will be loaded here -->
           </div>
-          <div class="form-group">
-            <label for="ucapan-pesan" class="form-label">Ucapan/Doa</label>
-            <textarea id="ucapan-pesan" name="pesan" class="form-textarea" rows="4" placeholder="Tulis ucapan dan doa Anda di sini..." required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary btn-submit">
-            Kirim Ucapan
-          </button>
-        </form>
-        <div class="ucapan-divider"></div>
-        <h3 class="ucapan-list-title">📜 Ucapan & Doa</h3>
-        <div id="ucapan-list" class="ucapan-list">
-          <!-- Ucapan items will be loaded here -->
         </div>
       </div>
     </section>
@@ -224,12 +228,11 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <p class="footer-quote">"Cinta sejati adalah ketika dua jiwa saling melengkapi"</p>
         <div class="footer-divider"></div>
         <p class="footer-thanks">Terima kasih atas doa dan restunya</p>
-        <h3 class="footer-names">Asep & Dina</h3>
+        <h3 class="footer-names">Vivit & Iwan</h3>
         <div class="footer-line"></div>
-        <p class="footer-made">Made with <span class="heart">♡</span></p>
+        <p class="footer-made">Made by kembanggulaa_</p>
       </div>
     </footer>
   </main>
@@ -240,7 +243,7 @@
       <span id="music-icon" class="music-icon">🔊</span>
     </button>
     <audio id="wedding-audio" loop>
-      <source src="./audio/wedding-song.mp3" type="audio/mpeg">
+      <source src="./audio/backsound.mp3" type="audio/mpeg">
     </audio>
   </div>
 

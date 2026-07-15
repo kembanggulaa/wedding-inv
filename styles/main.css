@@ -26,8 +26,9 @@
   --overlay-color: var(--overlay-dark);
 
   /* Typography */
-  --font-heading: 'Playfair Display', serif;
-  --font-body: 'Lato', sans-serif;
+  --font-names: 'Pinyon Script', cursive;
+  --font-heading: 'EB Garamond', serif;
+  --font-body: 'EB Garamond', serif;
 
   /* Spacing */
   --section-padding: 80px 20px;
@@ -80,6 +81,26 @@ img {
   max-width: var(--container-max-width);
   margin: 0 auto;
   padding: 0 20px;
+}
+
+/* Main Content */
+.main-content {
+  background-color: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+/* Main Content Background */
+.main-content-background {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image: url('../images/background-simple.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  pointer-events: none;
 }
 
 /* Button Styles */
