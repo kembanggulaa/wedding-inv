@@ -2,51 +2,7 @@
    RESPONSIVE STYLES
    ============================================ */
 
-/* Mobile Small (320px - 375px) */
-@media (max-width: 375px) {
-  .overlay-content {
-    padding: 16px 16px 32px;
-  }
-
-  .overlay-names {
-    font-size: 2.5rem;
-  }
-
-  .hero-names {
-    font-size: 2.8rem;
-  }
-
-  .section-title {
-    font-size: 1.6rem;
-  }
-
-  .countdown-number {
-    font-size: 1.8rem;
-  }
-
-  .countdown-box {
-    min-width: 60px;
-    padding: 14px 10px;
-  }
-
-  .guest-card {
-    padding: 18px 32px;
-  }
-
-  .guest-name-display {
-    font-size: 1.5rem;
-  }
-
-  .event-card {
-    padding: 24px 16px;
-  }
-
-  .gallery-grid {
-    gap: 16px;
-  }
-}
-
-/* Mobile (376px - 767px) */
+/* Mobile (up to 767px) */
 @media (max-width: 767px) {
   :root {
     --section-padding: 60px 16px;
@@ -65,16 +21,20 @@
   }
 
   .countdown-timer {
-    gap: 12px;
+    gap: 10px;
   }
 
   .countdown-box {
-    min-width: 70px;
-    padding: 16px 12px;
+    padding: 16px 6px;
   }
 
   .countdown-number {
     font-size: 2rem;
+  }
+
+  .countdown-label {
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
   }
 
   .map-container iframe {
@@ -83,6 +43,53 @@
 
   .gallery-grid {
     max-width: 100%;
+  }
+}
+
+/* Mobile Small (320px - 375px) — must come after the block above so its overrides win */
+@media (max-width: 375px) {
+  .overlay-content {
+    padding: 16px 16px 32px;
+  }
+
+  .overlay-names {
+    font-size: 2.5rem;
+  }
+
+  .hero-names {
+    font-size: 2.8rem;
+  }
+
+  .section-title {
+    font-size: 1.6rem;
+  }
+
+  .countdown-box {
+    padding: 14px 4px;
+  }
+
+  .countdown-number {
+    font-size: 1.7rem;
+  }
+
+  .countdown-label {
+    font-size: 0.7rem;
+  }
+
+  .guest-card {
+    padding: 18px 32px;
+  }
+
+  .guest-name-display {
+    font-size: 1.5rem;
+  }
+
+  .event-card {
+    padding: 24px 16px;
+  }
+
+  .gallery-grid {
+    gap: 16px;
   }
 }
 
