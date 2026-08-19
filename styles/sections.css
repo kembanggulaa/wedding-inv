@@ -49,7 +49,7 @@
 }
 
 .overlay-label {
-  font-family: var(--font-names);
+  font-family: var(--font-body);
   font-size: 1.6rem;
   font-weight: 400;
   letter-spacing: 1px;
@@ -58,9 +58,9 @@
 }
 
 .overlay-names {
-  font-family: var(--font-heading);
+  font-family: var(--font-couple);
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 32px;
   line-height: 1.2;
 }
@@ -78,7 +78,7 @@
 .guest-name {
   font-family: var(--font-heading);
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 /* ============================================
@@ -107,7 +107,7 @@
 }
 
 .hero-label {
-  font-family: var(--font-names);
+  font-family: var(--font-body);
   font-size: 1.5rem;
   font-weight: 400;
   color: var(--warm-gray);
@@ -116,16 +116,16 @@
 }
 
 .hero-names {
-  font-family: var(--font-heading);
+  font-family: var(--font-couple);
   font-size: 3.5rem;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--charcoal);
   margin-bottom: 20px;
   line-height: 1.2;
 }
 
 .hero-quote {
-  font-family: var(--font-heading);
+  font-family: var(--font-couple);
   font-size: 1.2rem;
   font-style: italic;
   color: var(--warm-gray);
@@ -160,8 +160,7 @@
 .guest-name-display {
   font-family: var(--font-heading);
   font-size: 2rem;
-  font-weight: 700;
-  color: var(--charcoal);
+  font-weight: 400;
 }
 
 .guest-message {
@@ -204,8 +203,7 @@
 .event-date {
   font-family: var(--font-heading);
   font-size: 1.3rem;
-  font-weight: 600;
-  color: var(--charcoal);
+  font-weight: 400;
 }
 
 .event-divider {
@@ -254,13 +252,13 @@
 }
 
 .schedule-label {
-  font-weight: 600;
+  font-weight: 400;
   color: var(--charcoal);
 }
 
 .schedule-time {
   color: var(--warm-gray);
-  font-weight: 500;
+  font-weight: 400;
 }
 
 /* ============================================
@@ -294,7 +292,7 @@
 .countdown-number {
   font-family: var(--font-heading);
   font-size: 2.5rem;
-  font-weight: 700;
+  font-weight: 400;
   color: var(--charcoal);
   line-height: 1;
 }
@@ -310,7 +308,7 @@
 .countdown-date {
   font-size: 1.1rem;
   color: var(--warm-gray);
-  font-weight: 300;
+  font-weight: 400;
 }
 
 /* ============================================
@@ -377,7 +375,7 @@
 }
 
 .gallery-caption-label {
-  font-family: var(--font-heading);
+  font-family: var(--font-couple);
   font-size: 1rem;
   font-style: italic;
   color: var(--warm-gray);
@@ -387,7 +385,7 @@
 .gallery-caption-text {
   font-family: var(--font-heading);
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 400;
   color: var(--charcoal);
   line-height: 1.5;
 }
@@ -484,7 +482,7 @@
 }
 
 .ucapan-item-name {
-  font-weight: 700;
+  font-weight: 400;
   color: var(--charcoal);
   margin-bottom: 6px;
   font-size: 1rem;
@@ -521,7 +519,7 @@
 }
 
 .footer-quote {
-  font-family: var(--font-heading);
+  font-family: var(--font-couple);
   font-size: 1.3rem;
   font-style: italic;
   color: var(--white);
@@ -544,9 +542,9 @@
 }
 
 .footer-names {
-  font-family: var(--font-heading);
+  font-family: var(--font-couple);
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--rose-quartz);
   margin-bottom: 24px;
 }

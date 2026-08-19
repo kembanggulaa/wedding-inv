@@ -26,9 +26,9 @@
   --overlay-color: var(--overlay-dark);
 
   /* Typography */
-  --font-names: 'Pinyon Script', cursive;
-  --font-heading: 'EB Garamond', serif;
-  --font-body: 'EB Garamond', serif;
+  --font-couple: 'EB Garamond', serif;
+  --font-heading: 'Ovo', serif;
+  --font-body: 'Ovo', serif;
 
   /* Spacing */
   --section-padding: 80px 20px;
@@ -95,7 +95,7 @@ img {
   position: fixed;
   inset: 0;
   z-index: -1;
-  background-image: url('../images/background-simple.png');
+  background-image: url('../images/background-utama.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -112,7 +112,7 @@ img {
   padding: 12px 32px;
   font-family: var(--font-body);
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 400;
   text-decoration: none;
   border: none;
   border-radius: var(--radius-sm);
@@ -147,7 +147,7 @@ img {
 .form-label {
   display: block;
   margin-bottom: 8px;
-  font-weight: 600;
+  font-weight: 400;
   color: var(--charcoal);
   font-size: 0.95rem;
 }
@@ -215,7 +215,7 @@ img {
 .section-title {
   font-family: var(--font-heading);
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 400;
   text-align: center;
   margin-bottom: 40px;
   color: var(--charcoal);
