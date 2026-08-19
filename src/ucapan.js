@@ -77,19 +77,34 @@ async function loadUcapanList(container) {
 
   // Show loading
   container.innerHTML = '<p class="ucapan-loading">Memuat ucapan...</p>';
+  setUcapanListVisible(true);
 
   try {
     const result = await getUcapanList();
 
     if (result.success && result.data && result.data.length > 0) {
       renderUcapanList(container, result.data);
+      setUcapanListVisible(true);
     } else {
-      container.innerHTML = '<p class="ucapan-empty">Belum ada ucapan. Jadilah yang pertama!</p>';
+      container.innerHTML = '';
+      setUcapanListVisible(false);
     }
   } catch (error) {
     console.error('Error loading ucapan:', error);
     container.innerHTML = '<p class="ucapan-empty">Gagal memuat ucapan.</p>';
+    setUcapanListVisible(true);
   }
+}
+
+/**
+ * Show/hide ucapan list title and divider
+ * @param {boolean} visible
+ */
+function setUcapanListVisible(visible) {
+  const title = document.querySelector('.ucapan-list-title');
+  const divider = document.querySelector('.ucapan-divider');
+  if (title) title.classList.toggle('hidden', !visible);
+  if (divider) divider.classList.toggle('hidden', !visible);
 }
 
 /**
