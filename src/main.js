@@ -8,8 +8,8 @@ import { initUcapan } from './ucapan.js';
 // CONFIGURATION
 // ============================================
 
-// Wedding date for countdown (YYYY, MM-1, DD, HH, MM)
-const WEDDING_DATE = new Date(2026, 5, 30, 8, 0, 0);
+// Wedding date for countdown (January 30, 2027, 09:00 WIB)
+const WEDDING_DATE = new Date('2027-01-30T09:00:00+07:00');
 
 // ============================================
 // STATE
