@@ -49,9 +49,10 @@
 }
 
 .overlay-label {
-  font-family: var(--font-body);
+  font-family: var(--font-couple);
   font-size: 1.6rem;
   font-weight: 400;
+  font-style: italic;
   letter-spacing: 1px;
   margin-bottom: 8px;
   opacity: 0.9;
@@ -107,9 +108,10 @@
 }
 
 .hero-label {
-  font-family: var(--font-body);
+  font-family: var(--font-couple);
   font-size: 1.5rem;
   font-weight: 400;
+  font-style: italic;
   color: var(--warm-gray);
   letter-spacing: 1px;
   margin-bottom: 12px;
