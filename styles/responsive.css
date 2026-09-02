@@ -59,6 +59,10 @@
     font-size: 0.8rem;
     white-space: nowrap;
   }
+
+  .schedule-note {
+    display: block;
+  }
 }
 
 /* Mobile Small (320px - 375px) — must come after the block above so its overrides win */

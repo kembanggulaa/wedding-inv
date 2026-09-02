@@ -259,6 +259,10 @@
   color: var(--charcoal);
 }
 
+.schedule-note {
+  font-style: italic;
+}
+
 .schedule-time {
   color: var(--warm-gray);
   font-weight: 400;
