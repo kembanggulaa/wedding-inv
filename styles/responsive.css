@@ -46,21 +46,27 @@
   }
 
   .schedule-item {
-    padding: 10px 12px;
+    padding: 8px 10px;
+    gap: 6px;
   }
 
   .schedule-label {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+    white-space: nowrap;
   }
 
   .schedule-time {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     white-space: nowrap;
   }
 }
 
 /* Mobile Small (320px - 375px) — must come after the block above so its overrides win */
 @media (max-width: 375px) {
+  :root {
+    --section-padding: 60px 12px;
+  }
+
   .overlay-content {
     padding: 16px 16px 32px;
   }
@@ -98,7 +104,7 @@
   }
 
   .event-card {
-    padding: 24px 16px;
+    padding: 20px 12px;
   }
 
   .gallery-grid {
@@ -106,15 +112,17 @@
   }
 
   .schedule-item {
-    padding: 8px 10px;
+    padding: 6px 8px;
+    gap: 4px;
   }
 
   .schedule-label {
-    font-size: 0.85rem;
+    font-size: 0.78rem;
+    white-space: nowrap;
   }
 
   .schedule-time {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     white-space: nowrap;
   }
 }
