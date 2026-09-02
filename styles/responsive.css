@@ -44,6 +44,19 @@
   .gallery-grid {
     max-width: 100%;
   }
+
+  .schedule-item {
+    padding: 10px 12px;
+  }
+
+  .schedule-label {
+    font-size: 0.9rem;
+  }
+
+  .schedule-time {
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
 }
 
 /* Mobile Small (320px - 375px) — must come after the block above so its overrides win */
@@ -90,6 +103,19 @@
 
   .gallery-grid {
     gap: 16px;
+  }
+
+  .schedule-item {
+    padding: 8px 10px;
+  }
+
+  .schedule-label {
+    font-size: 0.85rem;
+  }
+
+  .schedule-time {
+    font-size: 0.8rem;
+    white-space: nowrap;
   }
 }
 
