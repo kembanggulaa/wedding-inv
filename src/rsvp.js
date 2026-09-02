@@ -30,6 +30,16 @@ export function initRSVP(guestSlug, guestName) {
     });
   });
 
+  // Clamp jumlah input to max 2 in real-time
+  if (jumlahInput) {
+    jumlahInput.addEventListener('input', () => {
+      let val = parseInt(jumlahInput.value) || 1;
+      if (val > 2) val = 2;
+      if (val < 1) val = 1;
+      jumlahInput.value = val;
+    });
+  }
+
   // Form submission
   if (form) {
     form.addEventListener('submit', async (e) => {
@@ -43,7 +53,9 @@ export function initRSVP(guestSlug, guestName) {
       }
 
       const rsvpValue = selectedRSVP.value;
-      const jumlah = rsvpValue === 'Hadir' ? parseInt(jumlahInput.value) || 1 : 0;
+      const jumlah = rsvpValue === 'Hadir'
+        ? Math.min(2, Math.max(1, parseInt(jumlahInput.value) || 1))
+        : 0;
 
       // Show loading state
       const submitBtn = form.querySelector('button[type="submit"]');
