@@ -105,7 +105,7 @@ function initLocationAnimations() {
 }
 
 /**
- * Gallery section animations with parallax
+ * Gallery section animations
  */
 function initGalleryAnimations() {
   gsap.from('.gallery-item', {
@@ -118,18 +118,6 @@ function initGalleryAnimations() {
       trigger: '#gallery',
       start: 'top 80%',
       toggleActions: 'play none none none'
-    }
-  });
-
-  // Subtle parallax on scroll
-  gsap.to('.gallery-item:first-child', {
-    y: -20,
-    ease: 'none',
-    scrollTrigger: {
-      trigger: '#gallery',
-      start: 'top bottom',
-      end: 'bottom top',
-      scrub: 1
     }
   });
 }

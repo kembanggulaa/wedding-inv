@@ -4,6 +4,10 @@
 
 /* Mobile (up to 767px) */
 @media (max-width: 767px) {
+  html {
+    scroll-snap-type: y mandatory;
+  }
+
   :root {
     --section-padding: 60px 16px;
   }
@@ -20,8 +24,63 @@
     font-size: 3rem;
   }
 
+  .hero-label {
+    font-size: 0.8rem;
+  }
+
+  .section {
+    min-height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section-hero {
+    min-height: 100vh;
+  }
+
   .gallery-image {
-    max-width: 240px;
+    max-width: 200px;
+  }
+
+  .gallery-grid {
+    max-width: 100%;
+    gap: 12px;
+  }
+
+  .gallery-caption {
+    margin-top: 8px;
+  }
+
+  .gallery-caption-text {
+    font-size: 0.9rem;
+  }
+
+  .gallery-caption-label {
+    font-size: 0.8rem;
+  }
+
+  .footer {
+    scroll-snap-align: start;
+  }
+
+  .footer-parents {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 0.85rem;
+  }
+
+  .footer-parents-left,
+  .footer-parents-right {
+    flex: 1;
+    text-align: center;
+  }
+
+  .footer-parents-amp {
+    display: none;
   }
 
   .countdown-timer {
@@ -116,7 +175,7 @@
   }
 
   .gallery-grid {
-    gap: 16px;
+    gap: 12px;
   }
 
   .schedule-item {
