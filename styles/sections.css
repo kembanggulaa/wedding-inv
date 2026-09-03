@@ -109,12 +109,17 @@
 
 .hero-label {
   font-family: var(--font-couple);
-  font-size: 1.5rem;
+  font-size: 1.15rem;
   font-weight: 400;
-  font-style: italic;
+  font-style: normal;
   color: var(--warm-gray);
-  letter-spacing: 1px;
-  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+  margin-bottom: 24px;
+  line-height: 1.9;
+  text-align: center;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-names {
@@ -373,7 +378,7 @@
 
 .gallery-image {
   width: 100%;
-  max-width: 400px;
+  max-width: 340px;
   margin: 0 auto;
   display: block;
 }
@@ -545,13 +550,21 @@
 
 .footer-thanks {
   color: var(--cream-white);
-  font-size: 1rem;
+  font-size: 2rem;
   margin-bottom: 12px;
 }
 
 .footer-names {
   font-family: var(--font-couple);
   font-size: 2rem;
+  font-weight: 500;
+  color: var(--rose-quartz);
+  margin-bottom: 24px;
+}
+
+.footer-names-bottom {
+  font-family: var(--font-couple);
+  font-size: 1.2rem;
   font-weight: 500;
   color: var(--rose-quartz);
   margin-bottom: 24px;

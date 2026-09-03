@@ -20,6 +20,10 @@
     font-size: 3rem;
   }
 
+  .gallery-image {
+    max-width: 240px;
+  }
+
   .countdown-timer {
     gap: 10px;
   }
